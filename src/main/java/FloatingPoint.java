@@ -42,7 +42,7 @@ public class FloatingPoint {
         fp.add(11.25f,58.289f);
         fp.sub(91.25f,58.289f);
         fp.div(90.25f,45.289f);
-        fp.mul(25*035f,12.12f);
+        fp.mul(25.035f,12.12f);
     }
 
 
