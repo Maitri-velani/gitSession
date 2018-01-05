@@ -23,9 +23,15 @@ public class Calculation {
         System.out.println("Addition is: "+add);
     }
 
+    public void sub(int number1,int number2)
+    {
+        int sub=number1-number2;
+        System.out.println("Substraction is: "+sub);
+    }
+
     public static void main(String[] args) {
         Calculation calc = new Calculation();
         calc.add(20,10);
-
+        calc.sub(20,10);
     }
 }
