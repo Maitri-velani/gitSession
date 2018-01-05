@@ -24,6 +24,12 @@ public class Calculation {
         return add;
     }
 
+    public void sub(int number1,int number2)
+    {
+        int sub=number1-number2;
+        System.out.println("Substraction is: "+sub);
+    }
+
     public static void main(String[] args) {
         Calculation calc = new Calculation();
         int ans = calc.add(20,10);
@@ -31,5 +37,7 @@ public class Calculation {
         Hello h= new Hello();
         h.diplayArithmatic(ans);
 
+        calc.add(20,10);
+        calc.sub(20,10);
     }
 }
