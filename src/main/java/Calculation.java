@@ -24,10 +24,11 @@ public class Calculation {
         return add;
     }
 
-    public void sub(int number1,int number2)
+    public int sub(int number1,int number2)
     {
         int sub=number1-number2;
         System.out.println("Substraction is: "+sub);
+        return sub;
     }
 
     public static void main(String[] args) {
