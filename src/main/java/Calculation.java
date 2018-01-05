@@ -17,15 +17,19 @@ public class Calculation {
         this.number2 = number2;
     }
 
-    public void add(int number1,int number2)
+    public int add(int number1, int number2)
     {
         int add=number1+number2;
         System.out.println("Addition is: "+add);
+        return add;
     }
 
     public static void main(String[] args) {
         Calculation calc = new Calculation();
-        calc.add(20,10);
+        int ans = calc.add(20,10);
+
+        Hello h= new Hello();
+        h.diplayArithmatic(ans);
 
     }
 }
