@@ -23,17 +23,27 @@ public class FloatingPoint {
         return add;
     }
 
-    public static void main(String[] args) {
-        FloatingPoint fp = new FloatingPoint();
-        fp.add(11.25f,58.289f);
-        fp.sub(91.25f,58.289f);
-    }
 
     public  float sub(float num1,float num2)
     {
         float sub=num1-num2;
         return sub;
     }
+
+
+    public  float mul(float num1,float num2)
+    {
+        float mul=num1*num2;
+        return mul;
+    }
+
+    public static void main(String[] args) {
+        FloatingPoint fp = new FloatingPoint();
+        fp.add(11.25f,58.289f);
+        fp.sub(91.25f,58.289f);
+        fp.mul(25*035f,12.12f);
+    }
+
 
 
 }
