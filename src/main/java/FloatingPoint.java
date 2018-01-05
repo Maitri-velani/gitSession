@@ -27,6 +27,7 @@ public class FloatingPoint {
         FloatingPoint fp = new FloatingPoint();
         fp.add(11.25f,58.289f);
         fp.sub(91.25f,58.289f);
+        fp.div(90.25f,45.289f);
     }
 
     public  float sub(float num1,float num2)
@@ -34,6 +35,13 @@ public class FloatingPoint {
         float sub=num1-num2;
         return sub;
     }
+
+    public  float div(float num1,float num2)
+    {
+        float div=num1/num2;
+        return div;
+    }
+
 
 
 }
